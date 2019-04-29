@@ -78,6 +78,7 @@ header {
     /* border: 5px dashed orange; */
     width: 100%;
     display: flex;
+    align-items: center;
     padding: 20px 20px 20px;
     width: 100%;
 }
@@ -91,7 +92,7 @@ nav a {
     display: inline-block;
 	color: grey;
 	text-decoration: none;
-	padding: 0% 3% 0% 3%;
+    padding: 0% 7% 0% 0%;
 	/* border: 3px solid blue; */
 }
 
@@ -124,7 +125,8 @@ nav a {
 .intro button {
 	padding: 5px 40px 5px;
 	border: 1px solid black;
-	font-family: 'Titillium Web';
+    font-family: 'Titillium Web';
+    background: white;
 }
 
 header p {
@@ -224,8 +226,14 @@ header {
 
 nav {
     width: 100%;
-    padding: 2% 10%;
+    justify-content: flex-start;
+    padding: 5% 0%;
 }
+
+nav a {
+    padding: 0% 10% 0% 0%;
+}
+
 .introimg {
     display: none;
 }
@@ -271,6 +279,10 @@ justify-content: center;
         justify-content: center;
     }
 
+    .logo {
+        margin-bottom: 2%;
+    }
+
 nav {
     display: flex;
     flex-direction: column;
@@ -281,7 +293,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4% 0%;
+    padding: 5% 0%;
     border-top: 1px solid gray;
 }
 

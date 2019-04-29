@@ -75,21 +75,23 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	/* border: 5px dashed orange; */
+    /* border: 5px dashed orange; */
+    width: 100%;
+    display: flex;
     padding: 20px 20px 20px;
     width: 100%;
-
 }
 
 nav {
 	/* border: 3px solid red; */
-	display: inline-block;
+	display: flex;
 	width: 75%;
 }
 nav a {
+    display: inline-block;
 	color: grey;
 	text-decoration: none;
-	padding: 0 25px 0px;
+	padding: 0% 3% 0% 3%;
 	/* border: 3px solid blue; */
 }
 

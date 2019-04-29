@@ -189,12 +189,19 @@ header p {
 .contact-content {
 	margin-top: 30px;
 }
-footer p {
-	text-align: center;
+
+.contact-content a {
+    color: black;
+    text-decoration: none;
 }
 
 footer {
     width: 100%;
+    margin: 8% 0%;
+}
+
+footer p {
+	text-align: center;
 }
 
 /*  Tablet view */
@@ -231,6 +238,15 @@ flex-flow: wrap;
 justify-content: center;
 }
 
+.section.bottom-content {
+    width: 100%
+}
+.bottom-content .services {
+    width: 31%;
+}
+.bottom-content .product {
+    width: 31%;
+}
 .bottom-content .vision {
     width: 31%;
 }
@@ -238,7 +254,7 @@ justify-content: center;
 }
 
 /* Phone view */ 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
 
     .container {
         max-width: 80%;
@@ -263,7 +279,8 @@ nav {
 
 nav a {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 4% 0%;
     border-top: 1px solid gray;
 }
